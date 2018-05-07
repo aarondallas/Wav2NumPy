@@ -17,7 +17,7 @@ setup(
     version=__version__,
     author='Aaron Dallas',
     description='NumPy Array Wave utilities',
-    url='https://github.atl.pdrop.net/research/WaveIO',
+    url='https://github.com/aarondallas/Wav2NumPy',
     packages=['wav2numpy'],
     install_requires=reqs,
     ext_modules=cythonize('wav2numpy/wav2numpy.pyx'),

@@ -1,0 +1,3 @@
+include requirements.txt
+recursive-include waveio *.pyx
+recursive-exclude waveio *.c *.so

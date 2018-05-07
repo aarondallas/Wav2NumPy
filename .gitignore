@@ -1,0 +1,22 @@
+*.c
+*.pyc
+*.swp
+*.deb
+.idea
+.DS_Store
+nosetests.xml
+.coverage
+build
+vm/.vagrant
+*.egg-info/
+dist/
+deb_dist/
+.cache/
+.venv/
+*.yaml
+creds
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
